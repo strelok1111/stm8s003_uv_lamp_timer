@@ -103,14 +103,14 @@ void press_button_1_call(void){
 	if(timer_started()  && !button_pressed_delay){
 		timer_stop();
 	}else if(!timer_started() && !button_pressed_delay){
-		timer_start(30);
+		timer_start(45);
 	}
 }
 void press_button_2_call(void){
 	if(timer_started() && !button_pressed_delay){
 		timer_stop();
 	}else if(!timer_started() && !button_pressed_delay){
-		timer_start(90);
+		timer_start(180);
 	}
 }
 void press_button_3_call(void){
